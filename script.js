@@ -5,8 +5,5 @@ let user = {
 }
 
 user["city of residence"] = "Moscow";
-user.age = 24;
 
-let info = prompt("Какую информацию хотите узнать о пользователе?");
-
-alert(user[info]);
+delete user["city of residence"];
